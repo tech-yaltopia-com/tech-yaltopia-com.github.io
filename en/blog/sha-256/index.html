@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.78.2" />
+
+<title>Secure Hash Algorithm 256</title>
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://tech-yaltopia-com.github.io/images/favico.ico" />
+
+<!-- Stylesheets -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
+
+
+<link rel="stylesheet" href="https://tech-yaltopia-com.github.io/css/style.min.css" media="screen">
+
+</head>
+<body id="body" style="background-color:black;">
+        <!-- Start Preloader -->
+<div id="preloader">
+    <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+</div>
+<!-- End Preloader --><!-- Fixed Navigation -->
+
+    <section class="header navigation">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="https://tech-yaltopia-com.github.io/">
+                            <img src="https://tech-yaltopia-com.github.io/images/Fixed1.png" alt="YaltopyaTech">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="tf-ion-android-menu"></span>
+                        </button>
+                        
+                        <div id="drapeaux">
+                            
+                            
+                            
+
+
+
+
+
+
+    <a href="https://tech-yaltopia-com.github.io/amh"><img src= https://tech-yaltopia-com.github.io/images/logos/lang-amh.gif alt="IMAGE" />
+
+</a>
+
+                            
+                            
+
+
+
+
+
+
+    <a href="https://tech-yaltopia-com.github.io/en" class="selected"><img src= https://tech-yaltopia-com.github.io/images/logos/lang-en.gif alt="IMAGE" />en
+    
+</a>
+
+                            
+                        </div>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="https://tech-yaltopia-com.github.io/">Home</a>
+                                </li>
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://tech-yaltopia-com.github.io/en/about">About</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://tech-yaltopia-com.github.io/en/video">Videos</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://tech-yaltopia-com.github.io/en/service">Services</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://tech-yaltopia-com.github.io/en/blog">Blogs</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://forum-tech.yaltopia.com/phpbb/">Forum</a>
+                                </li>
+                                
+                                
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://tech-yaltopia-com.github.io/en/contact">Contact</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        @media (max-width: 768px) {
+            .navbar {
+                position: relative;
+                left: 1;
+            }
+
+            .navbar li {
+                margin-left: 1%;
+                border-style:solid;
+                border-width: 1px;
+                border-color: #FEFCD7;
+                padding: 0.7%;
+            }
+
+            .video-player .play-icon {
+            position: relative;
+            left: -45%;
+            top: -45%;
+
+          }
+
+        }
+        
+    </style><div id="content" style="background-color:black;">
+
+<section class="blog-single section" style="background-color:black;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <img src="https://tech-yaltopia-com.github.io/images/blog/SHA256.png" class="w-100 mb-3" alt="Post-Image">
+                <h2>Secure Hash Algorithm 256</h2>
+                <div class="post-meta mb-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span>By</span>
+                            Kerod Fresenbet
+                        </li>
+                        <li class="list-inline-item">
+                            <span>at</span>
+                            <span>August 25, 2020</span>
+                        </li>
+                    </ul>
+                </div>
+                <link href="../../resources/_gen/assets/custom.css">
+<p style="font-size: xx-large;" id="p1"><strong><b>Hash?</b></strong></p>
+<div style="width: 1%; height: 0.5%; background-color: darkblue; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<p style="text-align: justify;">Where did I hear that? You may ask yourself these
+    questions when you look upon the
+    title. Well
+    cryptocurrency has been over the headlines on the news and other media for the past two years or more depending
+    where
+    you are from. Well SHA is just an algorithm that is the bedrock of the block chain and by extension cryptocurrency.
+    SHA
+    is what is called a deterministic one way hashing algorithm. Upon dissection that definition yields a clear picture
+    of
+    what SHA is; deterministic means that the algorithm will yield a specific output for a given input, it is also
+    referred
+    to as one way since there is no algorithmic way to do the function backwards at least not yet and it is a
+    mathematical
+    function that takes any size input but has an output of a fixed size hence the hash in the nomenclature. The only
+    way
+    that seems to work is brute force and that is not an algorithmic approach. So now that we know what SHA is, what
+    does it
+    do? SHA 256 is an algorithm that produces a 256 bit long identifier for any length of digital media. So let us say
+    you
+    have a petabyte of video files in an archive and wanted to assign a digital finger print to that archive, running
+    the
+    file through the SHA 256 algorithm will produce a unique, non-reproducible identifier for that file that is only 256
+    bits long usually expressed in 64 hex digits; the only way to reproduce that identifier (finger print) would be to
+    have
+    an exact copy of that archive. The algorithm is also ingenious in the sense that it is developed with the butterfly
+    effect in mind, ie. a slight change in a digital file which has a SHA 256 identifier will yield a drastically
+    different
+    SHA 256 identifier. I am talking about the slightest of changes like changing the rgb values of a single pixel on a
+    digital photograph by a factor of 1. So how many different hashes or digital finger prints are there? Well that is
+    simple math lol, just 2 to the power of 256.</p>
+<div style="float:right;width: 1%; height: 0.5%; background-color: brown; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<div class="separator" style="clear: both;" onmouseover="this.style.width='100%'"><a
+        href="https://1.bp.blogspot.com/-e1W0XyLXeJM/X0QtMXcip2I/AAAAAAAAAb8/Kniacpudl3k7XiQzN90e4LqGHnOJOvVBgCLcBGAsYHQ/s400/SHA%2B256.png"
+        style="display: block; padding: 1em 0; text-align: center;"><img style="background-color: aliceblue;" alt=""
+            border="0" width="400" data-original-height="282" data-original-width="400"
+            src="https://1.bp.blogspot.com/-e1W0XyLXeJM/X0QtMXcip2I/AAAAAAAAAb8/Kniacpudl3k7XiQzN90e4LqGHnOJOvVBgCLcBGAsYHQ/s400/SHA%2B256.png"
+            class="img-responsive"></a></div>
+<div style="width: 1%; height: 0.5%; background-color: darkblue; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<p style="text-align: justify;">115792089237316195423570985008687907853269984665640564039457584007913129639936 hashes or
+    one hundred and fifteen
+    quattuorvigintillion seven hundred and ninety two tresvigintillion eighty nine duovigintillion two hundred and
+    thirty
+    seven unvigintillion three hundred and sixteen vigintillion one hundred and ninety five novemdecillion four hundred
+    and
+    twenty three octodecillion five hundred and seventy septendecillion nine hundred and eighty five sexdecillion eight
+    quindecillion six hundred and eighty seven quattuordecillion nine hundred and seven tredecillion eight hundred and
+    fifty
+    three duodecillion two hundred and sixty nine undecillion nine hundred and eighty four decillion six hundred and
+    sixty
+    five nonillion six hundred and forty octillion five hundred and sixty four septillion thirty nine sextillion four
+    hundred and fifty seven quintillion five hundred and eighty four quadrillion seven trillion nine hundred and
+    thirteen
+    billion one hundred and twenty nine million six hundred and thirty nine thousand nine hundred and thirty six.</p>
+<div style="float:right;width: 1%; height: 0.5%; background-color: brown; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<div class="separator" style="clear: both;"><a
+        href="https://1.bp.blogspot.com/-Z_ioADCm5p8/X0QthBe7bII/AAAAAAAAAcE/071IcoOTAYoPYjzsgeY6TCu3IszHah7GgCLcBGAsYHQ/s1400/Sha-256.jpg"
+        style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" width="400"
+            data-original-height="965" data-original-width="1400"
+            src="https://1.bp.blogspot.com/-Z_ioADCm5p8/X0QthBe7bII/AAAAAAAAAcE/071IcoOTAYoPYjzsgeY6TCu3IszHah7GgCLcBGAsYHQ/s400/Sha-256.jpg"
+            class="img-responsive"></a></div>
+<div style="width: 1%; height: 0.5%; background-color: darkblue; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<p style="text-align: justify;">Calling this an astronomically large number would be an insult to the
+    number. For reference, the diameter of the observable universe is 93 billion lightyears, ie one hundred septillion.
+    Calling SHA 256 the world’s most computed algorithm would be an understatement and the algorithm is the basis for
+    cryptography, authentication, digital signatures etc. No one and I mean no one has figured out a way to reverse the
+    algorithm. The bitcoin protocol currently operates on SHA 256 and the algorithm was developed by the NSA (National
+    Security Agency). So, I am sure you remember the cryptocurrency mining craze that was ongoing for the better part of
+    2018 and into 2019 that drove the prices of graphics cards flying. Well, what does mining bitcoin really mean? Well
+    the
+    ledger for bitcoin as most of you will know is known as the block chain and as the name suggests it is a chain of
+    blocks
+    (set of records) that are joined using cryptography. Mining in a sense is record keeping, ie. keeping the blockchain
+    unalterable, consistent and complete. Each block has the SHA 256 hash of the previous block and that links it to the
+    previous block; miners will have to use brute force tactics to generate the SHA 256 hash of the previous block or a
+    close enough match. By doing so they will have generated bitcoin, hence the name mining. I will cover the block
+    chain
+    and the details of how the bitcoin protocol operates in a future review. Takes this as an introduction to the
+    algorithm
+    that underlies blockchain.</p>
+<div style="float:right;width: 1%; height: 0.5%; background-color: brown; transition-property: width;transition-duration: 5s;"
+    onmouseover="this.style.width='100%'">
+</div>
+<br>
+<br>
+<p style="text-align: end; font-size: larger;"><strong>This is <a href="t.me/KerodGebremedhin">Kerod</a> from Yaltopya
+        Tech</strong></p>
+<p style="text-align: end; font-size: large;">signing off.</p>
+<style>
+    img:hover {
+        transform: scale(1.05);
+    }
+
+    #p1:hover {
+        text-transform: uppercase;
+    }
+</style>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </div><!-- Footer Start -->
+<footer id="footer" class="bg-one">
+    <div class="top-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3" style="text-align: justify;">
+                    <h3>About</h3>
+                    <p>It is our goal in this day and age to help introduce more people to technology. The constant change in the tech world influences and changes everyone’s life with or without them realizing it. But this change can be both for good or for bad. Our goal is for the change to bring a positive impact to your lives.</p>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Places</h3>
+                    <ul>
+                        
+                        <li>
+                            <a href="https://tech-yaltopia-com.github.io/en/video">Videos</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://tech-yaltopia-com.github.io/en/contact">Contact us</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://tech-yaltopia-com.github.io/en/blog">Blogs</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://forum-tech.yaltopia.com/phpbb/">Forum</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Quicklinks</h3>
+                    <ul>
+                        
+                        <li>
+                            <a href="https://tech-yaltopia-com.github.io/en/about">Partners</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://tech-yaltopia-com.github.io/en/about">About</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <h3>Subscribe</h3>
+                    <form class="subscribe-form" action="newsletter.php" method="POST">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <h5>Copyright 2020. All rights reserved.</h5>
+        <h6>Designed and Developed by Yaltopia Tech
+            <br>Get More
+            <a href="#Home" target="_blank">Yaltopia</a>
+        </h6>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+<!-- Essential Scripts -->
+
+<!-- jQuery -->
+<script src="https://tech-yaltopia-com.github.io/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://tech-yaltopia-com.github.io/plugins/bootstrap/dist/js/popper.min.js"></script>
+<script src="https://tech-yaltopia-com.github.io/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="https://tech-yaltopia-com.github.io/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="https://tech-yaltopia-com.github.io/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://tech-yaltopia-com.github.io/plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Portfolio Filtering -->
+<script src="https://tech-yaltopia-com.github.io/plugins/filterzr/jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="https://tech-yaltopia-com.github.io/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<!-- Main Script -->
+
+<script src="https://tech-yaltopia-com.github.io/js/script.min.js"></script>
+
+
+</body>
+</html>
