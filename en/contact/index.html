@@ -208,39 +208,9 @@
             <div class=" col-12 col-md-3">
             </div>
             <div class="contact-form col-12 col-md-6">
-                <form id="contact-form" method="post" action="sendmail.php" role="form" autocomplete="on">
-                    <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name"
-                            style="color:lightgray;" required='required'>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email"
-                            style="color:lightgray;" required='required'>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject"
-                            style="color:lightgray;" required='required' maxlength="45">
-                    </div>
-
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"
-                            style="color:lightgray;" maxlength="280"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
-                    </div>
-
-                    <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
-                    </div>
-
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-                </form>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSc3CC4zlwZMzj5f_l4M0vcep1khCSfMGPzHhfjmrq-x4C-gUQ/viewform?embedded=true"
+                    width="531" height="531" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             </div>
         </div>
         <div class="row">
@@ -343,13 +313,9 @@
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>Subscribe</h3>
-                    <form class="subscribe-form" action="newsletter.php" method="POST">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
-                    </form>
+                    <iframe class="newsletter"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdrzw_I9qLfh_twMKnpZjbaSPzEaSMc0GZCfs2GmIwXSkyMpQ/viewform?embedded=true"
+                        width="350" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
@@ -413,6 +379,11 @@
         }
 
 
+    }
+    @media (max-width: 1300px){
+        .newsletter{
+            display: none;
+        }
     }
 </style></body>
 </html>

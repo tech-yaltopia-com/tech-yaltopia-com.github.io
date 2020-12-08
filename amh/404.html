@@ -229,13 +229,9 @@
                 </div>
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>በቅርብ ቀን</h3>
-                    <form class="subscribe-form" action="newsletter.php" method="POST">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
-                    </form>
+                    <iframe class="newsletter"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdrzw_I9qLfh_twMKnpZjbaSPzEaSMc0GZCfs2GmIwXSkyMpQ/viewform?embedded=true"
+                        width="350" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
         </div>
@@ -299,6 +295,11 @@
         }
 
 
+    }
+    @media (max-width: 1300px){
+        .newsletter{
+            display: none;
+        }
     }
 </style></body>
 </html>
