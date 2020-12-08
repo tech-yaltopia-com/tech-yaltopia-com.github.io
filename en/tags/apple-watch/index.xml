@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple Watch on YaltopyaTech</title>
-    <link>https://tech.yaltopia.com/en/tags/apple-watch/</link>
+    <link>https://tech-yaltopia-com.github.com/en/tags/apple-watch/</link>
     <description>Recent content in Apple Watch on YaltopyaTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://tech.yaltopia.com/en/tags/apple-watch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://tech-yaltopia-com.github.com/en/tags/apple-watch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Apple Watch 2</title>
-      <link>https://tech.yaltopia.com/en/blog/apple-watch-2/</link>
+      <link>https://tech-yaltopia-com.github.com/en/blog/apple-watch-2/</link>
       <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://tech.yaltopia.com/en/blog/apple-watch-2/</guid>
+      <guid>https://tech-yaltopia-com.github.com/en/blog/apple-watch-2/</guid>
       <description>Smart watches, do we really need them?</description>
     </item>
     
