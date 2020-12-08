@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tech-yaltopia-com.github.io/amh/categories/</loc>
+    <loc>https://tech.yaltopia.com/amh/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tech-yaltopia-com.github.io/en/categories/"
+                href="https://tech.yaltopia.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="amh"
-                href="https://tech-yaltopia-com.github.io/amh/categories/"
+                href="https://tech.yaltopia.com/amh/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://tech-yaltopia-com.github.io/amh/tags/</loc>
+    <loc>https://tech.yaltopia.com/amh/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tech-yaltopia-com.github.io/en/tags/"
+                href="https://tech.yaltopia.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="amh"
-                href="https://tech-yaltopia-com.github.io/amh/tags/"
+                href="https://tech.yaltopia.com/amh/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://tech-yaltopia-com.github.io/amh/</loc>
+    <loc>https://tech.yaltopia.com/amh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tech-yaltopia-com.github.io/en/"
+                href="https://tech.yaltopia.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="amh"
-                href="https://tech-yaltopia-com.github.io/amh/"
+                href="https://tech.yaltopia.com/amh/"
                 />
   </url>
   
