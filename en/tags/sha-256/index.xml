@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sha 256 on YaltopyaTech</title>
-    <link>https://tech-yaltopia-com.github.com/en/tags/sha-256/</link>
+    <link>https://tech-yaltopia-com.github.io/en/tags/sha-256/</link>
     <description>Recent content in sha 256 on YaltopyaTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tech-yaltopia-com.github.com/en/tags/sha-256/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tech-yaltopia-com.github.io/en/tags/sha-256/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure Hash Algorithm 256</title>
-      <link>https://tech-yaltopia-com.github.com/en/blog/sha-256/</link>
+      <link>https://tech-yaltopia-com.github.io/en/blog/sha-256/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tech-yaltopia-com.github.com/en/blog/sha-256/</guid>
+      <guid>https://tech-yaltopia-com.github.io/en/blog/sha-256/</guid>
       <description>Hash?Where did I hear that? You may ask yourself these questions when you look uponthe title.</description>
     </item>
     
