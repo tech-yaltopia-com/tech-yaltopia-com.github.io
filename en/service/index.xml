@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on YaltopyaTech</title>
-    <link>https://tech-yaltopia-com.github.io/en/service/</link>
+    <link>https://tech.yaltopia.com/en/service/</link>
     <description>Recent content in Services on YaltopyaTech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Jul 2018 15:45:06 +0600</lastBuildDate><atom:link href="https://tech-yaltopia-com.github.io/en/service/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jul 2018 15:45:06 +0600</lastBuildDate><atom:link href="https://tech.yaltopia.com/en/service/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

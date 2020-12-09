@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on YaltopyaTech</title>
-    <link>https://tech-yaltopia-com.github.io/amh/tags/</link>
+    <link>https://tech.yaltopia.com/amh/tags/</link>
     <description>Recent content in Tags on YaltopyaTech</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>Amh-amh</language><atom:link href="https://tech-yaltopia-com.github.io/amh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>Amh-amh</language><atom:link href="https://tech.yaltopia.com/amh/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
